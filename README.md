@@ -1,2 +1,2 @@
 # ShellTexturing
-This interactive grass-rendering demo uses a shell-based fur rendering technique called shell texturing.
+This interactive grass-rendering demo uses a shell-based fur rendering technique called shell texturing. This technique gives the illusion of millions of hairs, or in this case, blades of grass,  by layering their cross-sections called shells. In my implementation, I sampled the grass height using a Perlin noise texture, shaded the grass using a stylized half-lambert lighting model, and created a simplified wind animation by displacing the mesh vertices with a Sin function.
